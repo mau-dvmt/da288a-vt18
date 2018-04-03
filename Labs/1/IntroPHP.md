@@ -86,10 +86,10 @@ När ni svarat på dessa frågor har ni kött på benen att bygga en svarssida, 
 
  URL: `localhost:8000/index.php?name=Anton`
 
- För att plocka ut värdet `Anton` och spara i variabeln `$name` så skriver vi i PHP:
+ För att plocka ut värdet `Anton` (genom nyckeln `name`) och spara i variabeln `$name` så skriver vi i PHP:
 
 ```php
-$name = $_GET['Anton']
+$name = $_GET['name']
 ```
 
 Om vi istället skickar data med HTTP-metoder POST, så använder vi `$_POST['key']`.
@@ -142,7 +142,7 @@ $ composer init
 
 för att börja. Vi vill att vår composer.json ska ha följande information:
 
-* Paketet ska heta mah/testing
+* Paketet ska heta mau/testing
 * Paketet ska ha en kort beskrivning
 * En utgivare ska vara angiven
 * Vi litar bara på stabila utgåvor av paket

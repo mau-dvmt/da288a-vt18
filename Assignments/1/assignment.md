@@ -45,11 +45,11 @@ Vi ska även i denna uppgift logga när de olika vyerna besöks, detta genom pak
 
 Följande krav finns på uppgiften:
 - Uppgiften ska följa uppgiftsbeskrivningen ovan
-- Ni ska följa PSR-1 & PSR-2 när det gällen hur ni skriver er kod
-- Ni ska använda composer för beroendehantering och informationom ert projekt
+- Ni ska följa PSR-1 & PSR-2 när det gäller hur ni skriver er kod
+- Ni ska använda composer för beroendehantering och information om ert projekt
 - Ni ska använda Driessens GitFlow-modell
 
-*Viktigt*, Inlämningsuppgiftens startfil ska heta `index.php`.
+***Viktigt***, Inlämningsuppgiftens startfil ska heta `index.php`.
 
 ### Inlämning
 
@@ -57,7 +57,7 @@ Inlämningen sker genom att ni publicerar er lösning på [Github](github.com) o
 
 ## Deadline
 
-Uppgiften ska vara inlämnad senaste söndagen den 9:e april, 23.59. Uppgifter som lämnas in efter deadline kommer att rättas i samband med nästa inlämningsuppgift.
+Uppgiften ska vara inlämnad senaste onsdagen den 18:e april, 23.59. Uppgifter som lämnas in efter deadline kommer att rättas i samband med nästa inlämningsuppgift.
 
 <hr>
 

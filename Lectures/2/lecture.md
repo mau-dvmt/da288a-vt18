@@ -1,7 +1,7 @@
 # Introduktion till PHP
 
 - [Introduktion till PHP](intro-php.pdf)
-<!-- - [Composer-presentation](composer.pdf) -->
+- [Composer-presentation](composer.pdf)
 
 ## Dagens exempel - Gästbok
 

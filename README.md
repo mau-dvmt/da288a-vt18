@@ -6,8 +6,8 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 2. [Introduktion till PHP](/Lectures/2/lecture.md)
 2. [Paket- och beroendehantering med Composer](/Lectures/2/lecture.md)
 3. [Versionshantering med Git och GitFlow, samt webbtjänster med HTTP och REST](/Lectures/3/lecture.md)
+4. [Mikroramverk - Lumen](/Lectures/4/lecture.md)
 <!--
-4. [PHP - Lumen](/Lectures/4/lecture.md)
 5. [PHP - Lumen/Controllers/Models/Database/etc.](/Lectures/5/lecture.md)
 6. [PHP - Introduktion till Laravel](/Lectures/6/lecture.md)
 7. [PHP - Laravel, middleware/authentication](Lectures/7/lecture.md)
@@ -18,8 +18,8 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 ## Laborationer
 - [Laboration 1](/Labs/1/IntroPHP.md)
 - [Laboration 2](/Labs/2/git.md)
-<!--
 - [Laboration 3](/Labs/3/lumen.md)
+<!--
 - [Laboration 4](/Labs/4/lumen.md)
 - [Laboration 5](/Labs/5/laravel.md)
 - [Laboration 6](/Labs/6/laravel.md)

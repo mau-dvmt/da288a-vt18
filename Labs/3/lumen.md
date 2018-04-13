@@ -68,7 +68,7 @@ Nu tar vi bort länkarna till PHP 7.0. Gör vi inte detta, kommer Apache fortfar
 
 ```bash
 $ sudo rm /etc/apache2/mods-enabled/php7.0.conf
-sudo rm /etc/apache2/mods-enabled/php7.0.load
+$ sudo rm /etc/apache2/mods-enabled/php7.0.load
 ```
 
 Slutligen startar vi om webbservern:

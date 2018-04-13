@@ -40,6 +40,43 @@ Laravel behöver paketet *php-zip* för att kunna köras. Installera detta genom
 $ sudo apt-get install php-zip
 ```
 
+#### Uppdatera till PHP 7.1
+Den senaste versionen av Laravel kräver PHP 7.1 eller nyare för att köras. Detta finns inte i vår version av Ubuntu, men det går självklart att lösa ändå. Gör så här:
+
+Börja med att lägga till ett repository som tillhandahåller paket för PHP 7.1 i Ubuntu genoma tt köra
+
+```bash
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:ondrej/php
+$ sudo apt-get update
+```
+
+När detta är tillagt går det utmärkt att uppdatera till den nyare versionen. Eftersom PHP 7.1 inte tillhandahålls av Canonical (företaget som ger ut Ubuntu) kommer PHP 7.0 fortfarande att vara förvalt. Detta gör att vi explicit måste begära version 7.1 av de PHP-paket som behövs. Gör detta genom att ange följande:
+
+```bash
+$ sudo apt-get install php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-zip php7.1-curl
+```
+
+Nu måste vi berätta för webbservern Apache att vi vill använda oss av PHP 7.1. Vi gör detta genom att skapa länkar till PHP 7.1-konfigurationsfilen och laddningsanvisningarna genom att använda oss av kommandot *ln -s*.
+
+```bash
+$ sudo ln -s /etc/apache2/mods-available/php7.1.conf /etc/apache2/mods-enabled/php7.1.conf
+$ sudo ln -s /etc/apache2/mods-available/php7.1.load /etc/apache2/mods-enabled/php7.1.load
+```
+
+Nu tar vi bort länkarna till PHP 7.0. Gör vi inte detta, kommer Apache fortfarande att läsa in 7.0. Vi gör detta med hjälp av *rm*.
+
+```bash
+$ sudo rm /etc/apache2/mods-enabled/php7.0.conf
+sudo rm /etc/apache2/mods-enabled/php7.0.load
+```
+
+Slutligen startar vi om webbservern:
+
+```bash
+$ sudo systemctl restart apache2.service
+```
+
 #### Installera Laravel med hjälp av Composer genom att skriva
 ```bash
 $ composer global require "laravel/lumen-installer=~1.0"

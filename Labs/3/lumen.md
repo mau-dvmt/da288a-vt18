@@ -105,7 +105,7 @@ Surfa sedan till adressen [http://localhost/](http://localhost/) för att se att
 Börja med att skapa de routes (som ni kom fram till i del 1. av labben), se [lumens dokumentation](https://lumen.laravel.com/docs/5.4/routing) om ni behöver fräscha upp minnet hur man gör detta. Ni bör alltså skapa routes för att `skapa`, `lista`, `visa`, `uppdatera` & `radera` produkter. Dubbelkolla att routes fungerar genom exempelutskrifter, t.ex.
 
 ```php
-$app->get('/products', function () {
+$router->get('/products', function () {
     return 'Soon, we will list the products here!';
 });
 ```
@@ -143,7 +143,7 @@ Skapa en datakälla med produkter (i t.ex. `json`), eller använd denna exempelf
 
 Spara denna fil som `products.json` i mappen `resources`, så kan vi nå den genom följande exempelkod i `web.php`:
 ```php
-$app->get('/', function () use ($app) {
+$router->get('/', function () use ($app) {
     // Convert our products from json to object i PHP
 	$products = json_decode(file_get_contents("../resources/products.json"));
 

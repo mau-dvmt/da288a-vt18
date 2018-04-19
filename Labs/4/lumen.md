@@ -128,7 +128,7 @@ En databas utan data är inte speciellt roligt! Det är därför dags för er at
 - Skapa kopplingar mellan produkter och butiker (många till många-relation)
 - Skapa minst tre recensioner som ni kopplar till valfria produkter.
 
-Känner ni er inte bekväma mer `seeding` så läs den [officiella dokumentation](https://laravel.com/docs/5.4/seeding), titta på hur vi skapade våra seeds i [senaste föreläsningen]() och titta på de `inserts` vi skapade för våra `seeding` på föreläsningen [genom GitHub](https://github.com/Tibbelit/da287a-lumen-movie-example/tree/master/database/seeds).
+Känner ni er inte bekväma mer `seeding` så läs den [officiella dokumentation](https://laravel.com/docs/5.6/seeding), titta på hur vi skapade våra seeds i [senaste föreläsningen]() och titta på de `inserts` vi skapade för våra `seeding` på föreläsningen [genom GitHub](https://github.com/Tibbelit/da287a-lumen-movie-example/tree/master/database/seeds).
 
 När ni skapat och definierat `seeds` för tabellerna ovan så kör
 ```bash
@@ -151,7 +151,7 @@ De routes som ni skapar ska skicka vidare anropet till en controller vid namn `P
         - Vilka butiker den finns i
         - Recensioner kring produkten
 
-Behöver ni inspiration för hur detta ska göras, så titta i den [officiella dokumentation](https://laravel.com/docs/5.4/seeding), samt i det exempel som vi [gjorde på föreläsningen](https://github.com/Tibbelit/da287a-lumen-movie-example/tree/master). Ni ska göra i princip samma sak som vi gjorde med filmerna.
+Behöver ni inspiration för hur detta ska göras, så titta i den [officiella dokumentation](https://laravel.com/docs/5.6/seeding), samt i det exempel som vi [gjorde på föreläsningen](https://github.com/Tibbelit/da287a-lumen-movie-example/tree/master). Ni ska göra i princip samma sak som vi gjorde med filmerna.
 
 ## 3. Vidareutveckling av er webbtjänst
 Nu har ni byggt en bra grund för er webbtjänst! Men det finns mycket kvar att göra! Beroende på hur mycket tid ni har, så är här några punkter som borde vidareutvecklas:

@@ -19,8 +19,8 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 - [Laboration 1](/Labs/1/IntroPHP.md)
 - [Laboration 2](/Labs/2/git.md)
 - [Laboration 3](/Labs/3/lumen.md)
-<!--
 - [Laboration 4](/Labs/4/lumen.md)
+<!--
 - [Laboration 5](/Labs/5/laravel.md)
 - [Laboration 6](/Labs/6/laravel.md)
 - [Laboration 7](/Labs/7/tester_och_refaktorisering.md)

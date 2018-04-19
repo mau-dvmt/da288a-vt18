@@ -12,11 +12,11 @@ Denna labb är uppdelad i två delar, som ni hittar här:
 Labben hittar ni här:
 [Lumen](3/lumen.md)
 
-<!--
 ## Laboration 4 - Mer Lumen (Controllers/Models/Database)
 Labben hittar ni här:
 [Lumen](4/lumen.md)
 
+<!--
 ## Laboration 5 - Introduktion till Laravel
 Labben hittar ni här:
 [Laravel](5/laravel.md)

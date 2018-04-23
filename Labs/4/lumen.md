@@ -153,6 +153,13 @@ De routes som ni skapar ska skicka vidare anropet till en controller vid namn `P
 
 Behöver ni inspiration för hur detta ska göras, så titta i den [officiella dokumentation](https://laravel.com/docs/5.6/seeding), samt i det exempel som vi [gjorde på föreläsningen](https://github.com/Tibbelit/da287a-lumen-movie-example/tree/master). Ni ska göra i princip samma sak som vi gjorde med filmerna.
 
+#### Viktigt!
+För att kunna använda ORM så avkommentera följande rader i filen `bootstrap/app.php`:
+```php
+$app->withFacades();
+$app->withEloquent();
+```
+
 ## 3. Vidareutveckling av er webbtjänst
 Nu har ni byggt en bra grund för er webbtjänst! Men det finns mycket kvar att göra! Beroende på hur mycket tid ni har, så är här några punkter som borde vidareutvecklas:
 - Visa upp butiker / butik med produkter

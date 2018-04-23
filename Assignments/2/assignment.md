@@ -124,7 +124,7 @@ Följande krav finns på uppgiften:
 ## 5. Inlämning & deadline
 Inlämningen sker genom att ni publicerar er lösning på Github och skickar in adressen till er lösning på Its learning. Glöm inte att uppgiften ska utföras och redovisas enskilt.
 
-Uppgiften ska vara inlämnad senaste söndagen den *30:e april*, 23.59. Uppgifter som lämnas in efter deadline kommer att rättas i samband med nästa inlämningsuppgift.
+Uppgiften ska vara inlämnad senaste söndagen den *2:a maj*, 23.59. Uppgifter som lämnas in efter deadline kommer att rättas i samband med nästa inlämningsuppgift.
 
 ## 6. Exempellösningar
 

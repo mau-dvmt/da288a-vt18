@@ -143,7 +143,7 @@ Skapa en datakälla med produkter (i t.ex. `json`), eller använd denna exempelf
 
 Spara denna fil som `products.json` i mappen `resources`, så kan vi nå den genom följande exempelkod i `web.php`:
 ```php
-$router->get('/', function () use ($app) {
+$router->get('/', function () {
     // Convert our products from json to object i PHP
 	$products = json_decode(file_get_contents("../resources/products.json"));
 

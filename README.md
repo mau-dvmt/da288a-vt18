@@ -9,8 +9,8 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 4. [Mikroramverk - Lumen](/Lectures/4/lecture.md)
 5. [PHP - Lumen/Controllers/Models/Database/etc.](/Lectures/5/lecture.md)
 6. [PHP - Introduktion till Laravel](/Lectures/6/lecture.md)
-<!--
 7. [PHP - Laravel, middleware/authentication](Lectures/7/lecture.md)
+<!--
 8. [Tester och refaktorisering](Lectures/8/lecture.md)
 9. [Delivery, Deployment & Integration](9/lecture.md)
 -->
@@ -30,8 +30,8 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 ## Inlämningsuppgifter
 - [Inlämning 1](/Assignments/1/assignment.md)
 - [Inlämning 2](/Assignments/2/assignment.md)
-<!--
 - [Inlämning 3](/Assignments/3/assignment.md)
+<!--
 - [Inlämning 4](/Assignments/4/assignment.md)
 -->
 

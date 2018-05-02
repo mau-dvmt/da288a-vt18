@@ -10,7 +10,7 @@ De vill nu ha hjälp med att bygga ett API där information om _produkter_, _but
 
 ## 2. Specifikation av API:t
 
-_Superbutiken_ har tagit fram en kravspecifikation gällande hur API:t ska utformas, enligt följande (glöm inte att titta på *exempelsvaren* så att ni vet vad ert API ska returnera):
+_Superbutiken_ har tagit fram en kravspecifikation gällande hur API:t ska utformas, enligt följande (glöm inte att titta på **exempelsvaren** så att ni vet vad ert API ska returnera):
 
 ### Routes
 

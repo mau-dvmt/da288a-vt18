@@ -24,11 +24,11 @@ Labben hittar ni här:
 Labben hittar ni här:
 [Laravel](6/laravel.md)
 
-<!--
 ## Laboration 7 - Tester och refaktorisering
 Labben hittar ni här:
 [Tester och refaktorisering](7/tester_och_refaktorisering.md)
 
+<!--
 ## Laboration 8 - Delivery, Deployment & Integration
 Labben hittar ni här:
 [Delivery, Deployment & Integration](8/ddi.md)

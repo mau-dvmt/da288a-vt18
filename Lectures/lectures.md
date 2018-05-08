@@ -10,6 +10,4 @@ Nedan hittar ni en lista på föreläsningar och ev. exempel på föreläsningar
 6. AT - [PHP - Introduktion till Laravel](6/lecture.md)
 7. AT - [PHP - Laravel, middleware/authentication](7/lecture.md)
 8. JH - [Tester och refaktorisering](8/lecture.md)
-<!--
 9. JH - [Delivery, Deployment & Integration](9/lecture.md)
--->

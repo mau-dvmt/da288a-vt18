@@ -11,9 +11,7 @@ På denna sida kan ni hitta information som är kopplat till kursen DA288A - Mol
 6. [PHP - Introduktion till Laravel](/Lectures/6/lecture.md)
 7. [PHP - Laravel, middleware/authentication](Lectures/7/lecture.md)
 8. [Tester och refaktorisering](Lectures/8/lecture.md)
-<!--
 9. [Delivery, Deployment & Integration](9/lecture.md)
--->
 
 ## Laborationer
 - [Laboration 1](/Labs/1/IntroPHP.md)

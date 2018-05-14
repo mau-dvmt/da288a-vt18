@@ -50,3 +50,7 @@ Följande krav finns på uppgiften:
 Inlämningen sker genom att ni publicerar er lösning på Github och skickar in adressen till er lösning på Its learning. Glöm inte att uppgiften ska utföras och redovisas enskilt.
 
 Uppgiften ska vara inlämnad senaste söndagen den *30:e maj*, 23.59. Uppgifter som lämnas in efter deadline kommer att rättas i samband med nästa inlämningsuppgift.
+
+## Tips
+
+Det kan vara lite klurigt att köra igång MySQL på Azure. Titta på den här (guiden)[https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-php-mysql-app] för att titta på hur ni hanterar det.

@@ -101,7 +101,7 @@ Vi ska nu skapa de `routes` som vår webbapplikation ska innehålla. Vi vill ha 
 
 Vi kan antingen skapa dessa vyer manuellt - eller så kan vi låta Laravel göra detta för oss! Detta gör du genom att skriva följande i vår `routes/web.php`:
 ```php
-Route::resource('/producs', 'ProductController');
+Route::resource('/products', 'ProductController');
 ```
 
 #### 2.2.2. Skapa Controller
